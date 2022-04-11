@@ -1,0 +1,14 @@
+.current {
+  border: 2px solid #fa1703;
+}
+
+.current a {
+  color: #fa1703 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-light .navbar-nav > li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
