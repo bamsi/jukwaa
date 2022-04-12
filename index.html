@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- import google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@300;400&family=Mukta:wght@200;300;400;800&family=Vazirmatn:wght@100;300;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--- import bootstrap style-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,9 +24,10 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
-    <title>Jukwaa la Kilimo</title>
+    <title>Jukwaa la Afya</title>
   </head>
   <body>
+    <!-- top navigation menu-->
     <nav class="navbar navbar-dark navbar-expand-md bg-dark d-none d-md-block">
       <div class="container">
         <ul class="navbar-nav ms-auto">
@@ -44,10 +53,12 @@
         </ul>
       </div>
     </nav>
+    <!-- navigation menu -->
     <nav class="navbar navbar-light bg-light navbar-expand-md">
       <div class="container py-3">
         <a href="" class="navbar-brand text-dark d-none d-md-block">
-          Jukwaa la Kilimo
+          <img src="images/logo.png" alt="Jukwaa la Afya" class="logo" />
+          <span>Jukwaa la Afya</span>
         </a>
         <button
           class="navbar-toggler"
@@ -78,7 +89,29 @@
         </div>
       </div>
     </nav>
+    <!-- header section-->
+    <section class="header-bg d-flex align-items-center">
+      <div class="container">
+        <h1 class="orange-light">"Hello! Sharing World"</h1>
+        <div class="row">
+          <h2 class="col-lg-8 display-2 coco text-background">
+            CREATIVE COMMONS GLOBAL SUMMIT 2015
+          </h2>
+        </div>
 
+        <div class="my-3 row">
+          <p class="border border-1 border-light p-2 col-lg-6">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
+            dolores tempora doloremque amet in, soluta, possimus vel voluptate
+            repellat libero est harum quo error omnis iste non culpa, ea dicta.
+          </p>
+        </div>
+        <h3 class="text-dark fw-bolder">2015.10.15(THU) ~ 16(FRI)</h3>
+        <h4 class="text-secondary">
+          @National Museum of Tanzania, Arti Center Nabi and more
+        </h4>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
