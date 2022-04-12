@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "coco";
-  font-weight: 400;
-  src: url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
+  font-family: cocogoose;
+  src:
+    url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
     format("woff");
+  font-weight: 400;
 }
 
 * {
@@ -14,7 +15,7 @@
 }
 
 .coco {
-  font-family: "coco";
+  font-family: "cocogoose", sans-serif;
 }
 
 .current {
@@ -31,12 +32,14 @@
     margin-right: 15px;
   }
 }
+
 .header-bg {
   position: relative;
   opacity: 1;
   min-height: 80vh;
   background-color: rgba(247, 240, 240, 0.5);
 }
+
 .header-bg::before {
   content: "";
   position: absolute;
