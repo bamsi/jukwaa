@@ -72,3 +72,13 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+.main-card {
+  background-color: #3d3f46;
+  border-radius: 0 !important;
+}
+
+.main-card h3 {
+  color: #ec5242;
+  font-weight: 500;
+}
