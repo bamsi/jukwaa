@@ -1,7 +1,6 @@
 @font-face {
   font-family: cocogoose;
-  src:
-    url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
+  src: url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
     format("woff");
   font-weight: 400;
 }
@@ -71,4 +70,14 @@
   background: url("../images/laura-vinck-Hyu76loQLdk-unsplash.jpg") 10% 50%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.main-card {
+  background-color: #3d3f46;
+  border-radius: 0 !important;
+}
+
+.main-card h3 {
+  color: #ec5242;
+  font-weight: 500;
 }
