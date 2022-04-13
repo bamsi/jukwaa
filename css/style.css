@@ -78,7 +78,12 @@
   border-radius: 0 !important;
 }
 
-.main-card h3 {
+.main-card h4 {
   color: #ec5242;
   font-weight: 500;
+}
+
+.img-speaker {
+  width: 150px;
+  height: 150px;
 }
