@@ -1,6 +1,7 @@
 @font-face {
   font-family: cocogoose;
-  src: url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
+  src:
+    url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
     format("woff");
   font-weight: 400;
 }
