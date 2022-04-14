@@ -135,3 +135,18 @@
   text-decoration-color: #ec5242;
   text-decoration-thickness: 0.2rem;
 }
+
+.title-underline {
+  position: relative;
+}
+
+.title-underline:after {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: red;
+  position: absolute;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translate(-50%);
+}
