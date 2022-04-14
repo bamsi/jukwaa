@@ -12,7 +12,7 @@ HTML, CSS, JS, node, Bootstrap
 
 ## Live demo
 
-[Loom Video]()
+[Loom Video](https://www.loom.com/share/708ef706490c4a8480a36fcd6b183ddd)
 
 ## Getting Started
 
