@@ -1,7 +1,6 @@
 @font-face {
   font-family: cocogoose;
-  src:
-    url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
+  src: url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
     format("woff");
   font-weight: 400;
 }
@@ -89,14 +88,23 @@
 }
 
 .partner-logo img {
-  width: 100px;
-  height: 100px;
-  filter:
-    invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
+  width: 70px;
+  height: 70px;
+  filter: invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
     contrast(89%);
 }
 
 .footer-icon {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #ec5242;
+  font-weight: 900;
+}
+.breadcrumb-item,
+.breadcrumb-item a {
+  color: #010101 !important;
 }
