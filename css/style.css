@@ -1,6 +1,7 @@
 @font-face {
   font-family: cocogoose;
-  src: url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
+  src:
+    url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
     format("woff");
   font-weight: 400;
 }
@@ -90,7 +91,8 @@
 .partner-logo img {
   width: 100px;
   height: 100px;
-  filter: invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
+  filter:
+    invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
     contrast(89%);
 }
 
