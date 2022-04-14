@@ -1,68 +1,66 @@
-const menuItem = document.querySelectorAll(".nav-link");
-const moreButton = document.querySelector("#more-button");
+const menuItem = document.querySelectorAll('.nav-link');
+const moreButton = document.querySelector('#more-button');
 
-menuItem.forEach((n) =>
-  n.addEventListener("click", function (event) {
-    const activeMenu = document.querySelector(".active");
-    activeMenu.classList.remove("active");
-    n.classList.add("active");
-  })
-);
+menuItem.forEach((n) => n.addEventListener('click', () => {
+  const activeMenu = document.querySelector('.active');
+  activeMenu.classList.remove('active');
+  n.classList.add('active');
+}));
 
-/**list of speakers */
-let speakerList = [
+/** list of speakers */
+const speakerList = [
   {
-    name: "Tumsifu Mkaangasumu",
-    title: "Event Organizer",
+    name: 'Tumsifu Mkaangasumu',
+    title: 'Event Organizer',
     description:
-      "He has been working as an organizer for the meeting since 2016. His contribution to the society regarding the peoples health is commendable!",
-    image: "speaker-1.png",
+      'He has been working as an organizer for the meeting since 2016. His contribution to the society regarding the peoples health is commendable!',
+    image: 'speaker-1.png',
   },
   {
-    name: "John Doe",
-    title: "Event Organizer",
+    name: 'John Doe',
+    title: 'Event Organizer',
     description:
-      "He has been working as an organizer for the meeting since 2016. His contribution to the society regarding the peoples health is commendable!",
-    image: "speaker-2.png",
+      'He has been working as an organizer for the meeting since 2016. His contribution to the society regarding the peoples health is commendable!',
+    image: 'speaker-2.png',
   },
   {
-    name: "Haiba Mwakasupa",
-    title: "Event Organizer",
+    name: 'Haiba Mwakasupa',
+    title: 'Event Organizer',
     description:
-      "She has been working as an organizer for the meeting since 2016. Her contribution to the society regarding the peoples health is commendable!",
-    image: "speaker-3.png",
+      'She has been working as an organizer for the meeting since 2016. Her contribution to the society regarding the peoples health is commendable!',
+    image: 'speaker-3.png',
   },
   {
-    name: "Haifu Mwawando",
-    title: "Event Organizer",
+    name: 'Haifu Mwawando',
+    title: 'Event Organizer',
     description:
-      "She has been working as an organizer for the meeting since 2016. Her contribution to the society regarding the peoples health is commendable!",
-    image: "speaker-4.png",
+      'She has been working as an organizer for the meeting since 2016. Her contribution to the society regarding the peoples health is commendable!',
+    image: 'speaker-4.png',
   },
   {
-    name: "Fahma Hanifu",
-    title: "Event Organizer",
+    name: 'Fahma Hanifu',
+    title: 'Event Organizer',
     description:
-      "She has been working as an organizer for the meeting since 2016. Her contribution to the society regarding the peoples health is commendable!",
-    image: "speaker-5.png",
+      'She has been working as an organizer for the meeting since 2016. Her contribution to the society regarding the peoples health is commendable!',
+    image: 'speaker-5.png',
   },
   {
-    name: "Phill Aden",
-    title: "Event Organizer",
+    name: 'Phill Aden',
+    title: 'Event Organizer',
     description:
-      "He has been working as an organizer for the meeting since 2016. His contribution to the society regarding the peoples health is commendable!",
-    image: "speaker-6.png",
+      'He has been working as an organizer for the meeting since 2016. His contribution to the society regarding the peoples health is commendable!',
+    image: 'speaker-6.png',
   },
 ];
 
 function loadProjects() {
-  const list = document.getElementById("speaker-list");
-  let data = "";
-  for (let i = 0; i < speakerList.length; i++) {
+  const list = document.getElementById('speaker-list');
+  let data = '';
+  for (let i = 0; i < speakerList.length; i + 1) {
     if (i > 1) {
-      data += `<div class="col-md-6 d-none d-md-block read-more">`;
+      data += '<div class="col-md-6 d-none d-md-block read-more">';
     } else {
-      data += `<div class="col-md-6">`;
+      data += '<div class="col-md-6">';
     }
     data += `  <div class="card mb-3 border-0">
                   <div class="row g-0">
@@ -98,10 +96,10 @@ window.onload = function () {
 };
 
 function readMore() {
-  const items = document.querySelectorAll(".read-more");
+  const items = document.querySelectorAll('.read-more');
   items.forEach((n) => {
-    n.classList.toggle("d-none");
+    n.classList.toggle('d-none');
   });
 }
 
-moreButton.addEventListener("click", readMore);
+moreButton.addEventListener('click', readMore);
