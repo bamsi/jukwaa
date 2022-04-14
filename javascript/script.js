@@ -56,7 +56,7 @@ const speakerList = [
 function loadProjects() {
   const list = document.getElementById('speaker-list');
   let data = '';
-  for (let i = 0; i < speakerList.length; i + 1) {
+  for (let i = 0; i < speakerList.length; i += 1) {
     if (i > 1) {
       data += '<div class="col-md-6 d-none d-md-block read-more">';
     } else {

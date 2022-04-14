@@ -63,3 +63,4 @@ You can deploy the website to any web server of your choice
 
 [Unsplash] (https://unsplash.com)
 [Microverse] (https://microverse.org)
+[Cindy Design] (https://www.behance.net/adagio07)
