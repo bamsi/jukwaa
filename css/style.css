@@ -108,3 +108,23 @@
 .breadcrumb-item a {
   color: #010101 !important;
 }
+
+.summit-logo {
+  width: 300px;
+  height: 200px;
+}
+
+.conference-bg {
+  content: "";
+  height: 200px;
+  background: url("../images/conference.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #3d3f46;
+  opacity: 0.5;
+}
+
+.white-logo {
+  filter: invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
+    contrast(89%);
+}
