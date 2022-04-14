@@ -42,9 +42,10 @@ The project demonstrates the website design in smaller devices such as mobile ph
 ## Run tests
 
 The website has been tested using css, html and javascript linters. You can run the following command to test the code:
-[] `npx eslint .` for javascript
-[] `npx hint .` web hint to test html
-[] `npx stylelint "**/*.{css,scss}"` to test css style
+
+- `npx eslint .` for javascript
+- `npx hint .` web hint to test html
+- `npx stylelint "**/*.{css,scss}"` to test css style
 
 ## Deployment
 
