@@ -53,7 +53,7 @@ You can deploy the website to any web server of your choice
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub:
   [@bamsi](https://github.com/bamsi)

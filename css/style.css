@@ -1,7 +1,6 @@
 @font-face {
   font-family: cocogoose;
-  src:
-    url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
+  src: url("https://fonts.cdnfonts.com/s/26936/cocogoose_trial.woff")
     format("woff");
   font-weight: 400;
 }
@@ -91,8 +90,7 @@
 .partner-logo img {
   width: 70px;
   height: 70px;
-  filter:
-    invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
+  filter: invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
     contrast(89%);
 }
 
@@ -128,8 +126,7 @@
 }
 
 .white-logo {
-  filter:
-    invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
+  filter: invert(60%) sepia(18%) saturate(0%) hue-rotate(170deg) brightness(91%)
     contrast(89%);
 }
 
@@ -147,7 +144,7 @@
   content: "";
   height: 2px;
   width: 40px;
-  background-color: red;
+  background-color: #ec5242;
   position: absolute;
   bottom: -0.5em;
   left: 50%;
