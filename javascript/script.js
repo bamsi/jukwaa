@@ -62,30 +62,30 @@ function loadProjects() {
     } else {
       data += '<div class="col-md-6">';
     }
-    data += `  <div class="card mb-3 border-0">
-                  <div class="row g-0">
-                    <div class="col-4">
-                      <img
-                        src="images/${speakerList[i].image}"
-                        class="img-fluid rounded-start img-speaker"
-                        alt="..."/>
-                    </div>
-                    <div class="col-8">
-                      <div class="card-body text-start">
-                          <h4 class="card-title">${speakerList[i].name}</h4>
-                          <p class="card-text">
-                            <small class="orange fst-italic"
-                              >${speakerList[i].title}</small
-                            >
-                          </p>
-                          <p class="card-text">
-                            ${speakerList[i].description}
-                          </p>
-                      </div>
-                    </div>
+    data += `<div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-4">
+                  <img
+                    src="images/${speakerList[i].image}"
+                    class="img-fluid rounded-start img-speaker"
+                    alt="..."/>
+                </div>
+                <div class="col-8">
+                  <div class="card-body text-start">
+                      <h4 class="card-title">${speakerList[i].name}</h4>
+                      <p class="card-text">
+                        <small class="orange fst-italic"
+                          >${speakerList[i].title}</small
+                        >
+                      </p>
+                      <p class="card-text">
+                        ${speakerList[i].description}
+                      </p>
                   </div>
                 </div>
-              </div>`;
+              </div>
+            </div>
+          </div>`;
   }
 
   list.innerHTML = data;

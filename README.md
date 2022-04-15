@@ -29,7 +29,7 @@ You need to setup node.js version 12.0 or above, and download the project from t
 
 ### Install
 
-Download the project from github and unzip the file or You can clone the project using the github link [https://github.com/bamsi/portfolio.git]
+Download the project from github and unzip the file or You can clone the project using the github link [https://github.com/bamsi/jukwaa.git]
 Open the terminal, git bash is recommended and the navigate to the directory of the project
 Run the following command
 
@@ -53,7 +53,7 @@ You can deploy the website to any web server of your choice
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub:
   [@bamsi](https://github.com/bamsi)
@@ -62,6 +62,6 @@ You can deploy the website to any web server of your choice
 
 ## Acknowledgments
 
-- [Unsplash] (https://unsplash.com)
-- [Microverse] (https://microverse.org)
-- [Cindy Design] (https://www.behance.net/adagio07)
+- [Unsplash](https://unsplash.com)
+- [Microverse](https://microverse.org)
+- [Cindy Design](https://www.behance.net/adagio07)
