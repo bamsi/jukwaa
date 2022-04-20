@@ -1,5 +1,6 @@
 const menuItem = document.querySelectorAll('.nav-link');
 const moreButton = document.querySelector('#more-button');
+const lessButton = document.querySelector('#less-button');
 
 menuItem.forEach((n) => n.addEventListener('click', () => {
   const activeMenu = document.querySelector('.active');
@@ -100,6 +101,18 @@ function readMore() {
   items.forEach((n) => {
     n.classList.toggle('d-none');
   });
+  moreButton.classList.add('hide');
+  lessButton.classList.remove('hide');
+}
+
+function readLess() {
+  const items = document.querySelectorAll('.read-more');
+  items.forEach((n) => {
+    n.classList.toggle('d-none');
+  });
+  moreButton.classList.remove('hide');
+  lessButton.classList.add('hide');
 }
 
 moreButton.addEventListener('click', readMore);
+lessButton.addEventListener('click', readLess);
