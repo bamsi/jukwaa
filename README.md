@@ -1,6 +1,6 @@
 # Jukwaa la Afya
 
-This is a forum for sharing tips about lifestyle diseases. The website has been designed to address the challenge of non communicable disease which is currently affecting lives of young men and women.
+This is a forum for sharing tips about lifestyle diseases. The website has been designed to address the challenge of non communicable disease which is currently affecting lives of young men and women. The system has been designed using mobile first approach, whereby the website responds to different screen sizes.
 
 ![Alt text](/images/screenshot.PNG?raw=true "Home page")
 
